@@ -1,0 +1,1311 @@
+[
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Spark",
+      "faa_drone_reg": null,
+      "flight_id": "row-5x7h_sun9.zx2d",
+      "location_area_surveyed": "Bryan Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1001 S Henderson St (Bryan Park)",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Spark\",\"faa_drone_reg\":null,\"flight_id\":\"row-5x7h_sun9.zx2d\",\"location_area_surveyed\":\"Bryan Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1001 S Henderson St (Bryan Park)\",\"timestamp\":null}",
+    "txHash": "e7350bdf71958bebf0be8f10558d587d55e8a8148de0099a4818c29bf84ff0ed"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Spark",
+      "faa_drone_reg": null,
+      "flight_id": "row-zajq.ndhk~4kay",
+      "location_area_surveyed": "Griffy Water Treatment Plant",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "N Dunn Street (Griffy Water Treatment Plant)",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Spark\",\"faa_drone_reg\":null,\"flight_id\":\"row-zajq.ndhk~4kay\",\"location_area_surveyed\":\"Griffy Water Treatment Plant\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"N Dunn Street (Griffy Water Treatment Plant)\",\"timestamp\":null}",
+    "txHash": "8334cc70bd497d5c557dd2f71178ff6ee8f2704105a48f591afa74bf8856cf95"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-z3fn_gj58.2ac3",
+      "location_area_surveyed": "Lower Cascades park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "2851 Old State Rd 37",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-z3fn_gj58.2ac3\",\"location_area_surveyed\":\"Lower Cascades park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"2851 Old State Rd 37\",\"timestamp\":null}",
+    "txHash": "eef77c8906fdc3a13d8e35e772a27f58ce1a18ad39cfe736f10d59e81c1412d2"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-nwi2_4kcd-ivq7",
+      "location_area_surveyed": "Downtown (From 4th & Grant to 2nd & Washington)",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "300 E 4th Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-nwi2_4kcd-ivq7\",\"location_area_surveyed\":\"Downtown (From 4th & Grant to 2nd & Washington)\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"300 E 4th Street\",\"timestamp\":null}",
+    "txHash": "2a262c7f39d1b003c3e686abe8c1497bfab97da07d7e5985548bd64e5d289658"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-ki7p-8bb9~8rb4",
+      "location_area_surveyed": "Ellettsville Town Hall",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1150 W. Guy McCown Drive Closest cross street is State Road 46",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-ki7p-8bb9~8rb4\",\"location_area_surveyed\":\"Ellettsville Town Hall\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1150 W. Guy McCown Drive Closest cross street is State Road 46\",\"timestamp\":null}",
+    "txHash": "c0236493efacd75a51638fd5583dbc938737611232e6456601c41ea6c6a1de32"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-8q54.5y43~4rpx",
+      "location_area_surveyed": "Third Street Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "331 S Washington Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-8q54.5y43~4rpx\",\"location_area_surveyed\":\"Third Street Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"331 S Washington Street\",\"timestamp\":null}",
+    "txHash": "93d4cddabda358e031868cb8f706c5de7dd6fc98530412d969d3d56121ded90f"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-6zrb-7cr6_cyzg",
+      "location_area_surveyed": "Third Street Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "331 S Washington Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-6zrb-7cr6_cyzg\",\"location_area_surveyed\":\"Third Street Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"331 S Washington Street\",\"timestamp\":null}",
+    "txHash": "cea0f356e50adbb1223f3c07fac481a2dce7d8b7f95a44fb45c6f8cdd9717d37"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-nyxc.ixi9-kttp",
+      "location_area_surveyed": "RCA Community Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1400 RCA Park Drive",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-nyxc.ixi9-kttp\",\"location_area_surveyed\":\"RCA Community Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1400 RCA Park Drive\",\"timestamp\":null}",
+    "txHash": "52acdf5cafaee07d39be48009d5387b083e50a792e8d02e374a020d523427c7f"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-59dw~2kwx.fcxw",
+      "location_area_surveyed": "RCA Community Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1400 W RCA Park Drive",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-59dw~2kwx.fcxw\",\"location_area_surveyed\":\"RCA Community Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1400 W RCA Park Drive\",\"timestamp\":null}",
+    "txHash": "9ebf3a338675414723aa871c2610d1e0ed8de81ca839602222ba4e54491b44c3"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-x66w_3z2n.frm8",
+      "location_area_surveyed": "Southeast Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1600 S Sycamore CT",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-x66w_3z2n.frm8\",\"location_area_surveyed\":\"Southeast Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1600 S Sycamore CT\",\"timestamp\":null}",
+    "txHash": "99ccfa1a859fb83091bd11ecc0a019d2e9fbe529322a8443b6706e1e919137e7"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-yhy7-f4tg_jgjr",
+      "location_area_surveyed": "Southeast Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1600 S Sycamore CT",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-yhy7-f4tg_jgjr\",\"location_area_surveyed\":\"Southeast Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1600 S Sycamore CT\",\"timestamp\":null}",
+    "txHash": "6cf8ebca86f0da492ae12236f77f8e8fdedb36033cea889fe78e01dd794c7d29"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-fn22-ngn6-szn6",
+      "location_area_surveyed": "Winslow Sports Complex",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "2800 S Highland Ave, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-fn22-ngn6-szn6\",\"location_area_surveyed\":\"Winslow Sports Complex\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"2800 S Highland Ave, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "0cd53473c2f9e95980ab22322e5fc88b869f689380d7f79040d4a0c9787cada2"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-nhds-uauy-tfr7",
+      "location_area_surveyed": "Goat Farm, Sherwood Oaks Park, Olcott Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "2000 E Winslow Rd, 1600 E Elliston Dr, 2300 E Canada Dr",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-nhds-uauy-tfr7\",\"location_area_surveyed\":\"Goat Farm, Sherwood Oaks Park, Olcott Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"2000 E Winslow Rd, 1600 E Elliston Dr, 2300 E Canada Dr\",\"timestamp\":null}",
+    "txHash": "db68371d2284dc8dded9eaa69a93aec3b0d580aae6f73bc4bc871bb28a8b1000"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-wyir~4eaf-42zx",
+      "location_area_surveyed": "Schmalz Farm Park, Park Ridge Park, and Park Ridge East Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "3010 E. Daniel Street, 3421 E. Longview Avenue, 4500 E. Morningside Drive",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-wyir~4eaf-42zx\",\"location_area_surveyed\":\"Schmalz Farm Park, Park Ridge Park, and Park Ridge East Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"3010 E. Daniel Street, 3421 E. Longview Avenue, 4500 E. Morningside Drive\",\"timestamp\":null}",
+    "txHash": "03afbe037cd2a157f5f14763d5771afe58f20ff4824e3147664fec8affc43989"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-xivh~zgjv_g7fj",
+      "location_area_surveyed": "Broadview Park and Rev. Ernest D. Butler Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "704 W Graham Drive & 812 W 9th Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-xivh~zgjv_g7fj\",\"location_area_surveyed\":\"Broadview Park and Rev. Ernest D. Butler Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"704 W Graham Drive & 812 W 9th Street\",\"timestamp\":null}",
+    "txHash": "4a475526999afccf85f4faa3bf0303b82d2e7cebc2cd76fdeb2f31ad01ef3153"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-n96u~5ree.7c8m",
+      "location_area_surveyed": "Griffy Nature Preserve",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "3595 N Headley Rd. Bloomington IN 47408",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-n96u~5ree.7c8m\",\"location_area_surveyed\":\"Griffy Nature Preserve\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"3595 N Headley Rd. Bloomington IN 47408\",\"timestamp\":null}",
+    "txHash": "a928f7fc9410f65061878f1f6b22cadd6cc1de9b8994f3dc1d0936e0926c0d84"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-qhb5_s4dy~43vp",
+      "location_area_surveyed": "Bryan Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1001 S Henderson Street, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-qhb5_s4dy~43vp\",\"location_area_surveyed\":\"Bryan Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1001 S Henderson Street, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "ae69339bc2a2d6df145ceb8cf96d34decaebce1de824c34b0457558c4143af90"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-qkq3.zkyp~m5bq",
+      "location_area_surveyed": "Ferguson Dog Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "4300 N Stone Mill Rd, Bloomington, IN 47408",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-qkq3.zkyp~m5bq\",\"location_area_surveyed\":\"Ferguson Dog Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"4300 N Stone Mill Rd, Bloomington, IN 47408\",\"timestamp\":null}",
+    "txHash": "927a4daefacd161d759e5be32ce166adf8bbeafd37a5dc74e32851f130bcabe4"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-dfxp~7tm8.d9rn",
+      "location_area_surveyed": "Crestmont Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1001 W 16th St, Bloomington, IN 47404",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-dfxp~7tm8.d9rn\",\"location_area_surveyed\":\"Crestmont Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1001 W 16th St, Bloomington, IN 47404\",\"timestamp\":null}",
+    "txHash": "7700ca4e7b180d568607d13a5139378ce36fb288ce0b555786a45c721d993a2e"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-tvu3~6qpj_4diw",
+      "location_area_surveyed": "Highland Village Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "950 S Harvey Drive, Bloomington, Indiana 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-tvu3~6qpj_4diw\",\"location_area_surveyed\":\"Highland Village Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"950 S Harvey Drive, Bloomington, Indiana 47403\",\"timestamp\":null}",
+    "txHash": "776a8be3353b91c2e88a4816d52c2ddc50f0d71d0229dddb59944f0ffde3a0d8"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-78qi_8rmj.gbt7",
+      "location_area_surveyed": "Upper Cascades Skatepark",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "2602 N Kinser Pike, Bloomington, Indiana 47404",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-78qi_8rmj.gbt7\",\"location_area_surveyed\":\"Upper Cascades Skatepark\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"2602 N Kinser Pike, Bloomington, Indiana 47404\",\"timestamp\":null}",
+    "txHash": "85abb5195df2df6579e447a4fc733ed236202eb885cea76ddb2d17920095a2bc"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-6hty~zbyn.6f9s",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers Street, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-6hty~zbyn.6f9s\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers Street, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "91e935fefb9e183360479c98a6f3652f1788fec03da383885c79084117cf200d"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-hqyn.88gv.cd3z",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers Street, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-hqyn.88gv.cd3z\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers Street, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "2f718c674907e265d61b776785d57732b6ec6527a02d2c5abcec81a8b9535591"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-u76p_engm_qqug",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers Street, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-u76p_engm_qqug\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers Street, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "d92d1a6231202a63034fb86af3427c26db8fedfe57e8ffa8fd45f9d778513b0c"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-92fy.cnyf~i7sg",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-92fy.cnyf~i7sg\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "825618f54fddaecd8ea7b2a306f87a322c41b99a3a71c8eae7be3892480ec08b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-27ph_bwjy_pmfw",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers St, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-27ph_bwjy_pmfw\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers St, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "f3a721cc6dfba43280c260310e94bb9c2c16036ae1961e9e5d64023505a881c5"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-crnp-95pe~2yaz",
+      "location_area_surveyed": "Monroe Water Treatment Plant",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "7470 S Shields Ridge Rd, Bloomington, IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-crnp-95pe~2yaz\",\"location_area_surveyed\":\"Monroe Water Treatment Plant\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"7470 S Shields Ridge Rd, Bloomington, IN 47401\",\"timestamp\":null}",
+    "txHash": "5c97a0e6329c03d55e2f8d0db2d8cb1b5a7e9183d6995c6da3c8d7a28bee9c5f"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-jkc9-6yyh_du46",
+      "location_area_surveyed": "Winston Thomas site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "315 W Gordon Pike",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-jkc9-6yyh_du46\",\"location_area_surveyed\":\"Winston Thomas site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"315 W Gordon Pike\",\"timestamp\":null}",
+    "txHash": "d7cddc3885252b4d869466502bd50e6fe6227e0dd0c61f416b86b78c21b0fc3a"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-grqs-gwtw~mu54",
+      "location_area_surveyed": "Dillman Wastewater Treatment Plant",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "100 W Dillman Rd.",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-grqs-gwtw~mu54\",\"location_area_surveyed\":\"Dillman Wastewater Treatment Plant\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"100 W Dillman Rd.\",\"timestamp\":null}",
+    "txHash": "3e2c27efceb3a5ccd214347a9b93bf4fc9f4f6d05ff1abbdb18d2b9cc39caa5b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-bvvd~9kgx_9w4j",
+      "location_area_surveyed": "East area adjacent to former hospital site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "W 2nd to W 1st, S Morton to S Rogers",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-bvvd~9kgx_9w4j\",\"location_area_surveyed\":\"East area adjacent to former hospital site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"W 2nd to W 1st, S Morton to S Rogers\",\"timestamp\":null}",
+    "txHash": "4c939aa74af1fa13490075ade890d06812830928bc3ee9e290b8b5ca865d84f6"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-pvjf.vfpg-mqsx",
+      "location_area_surveyed": "View of 3rd Street and Valhalla Gardens",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "209 S Fairfield Dr, Bloomington, IN 47404",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-pvjf.vfpg-mqsx\",\"location_area_surveyed\":\"View of 3rd Street and Valhalla Gardens\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"209 S Fairfield Dr, Bloomington, IN 47404\",\"timestamp\":null}",
+    "txHash": "e5690e7ada3b5a85ebaf9cdd585d0f95196de69b170e2c59452c2de40ba1a017"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-riru~zddy.jtqu",
+      "location_area_surveyed": "W 3rd Corridor from Profile Pkwy to Curry Pk",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "W 3rd Corridor from Profile Pkwy to Curry Pk",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-riru~zddy.jtqu\",\"location_area_surveyed\":\"W 3rd Corridor from Profile Pkwy to Curry Pk\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"W 3rd Corridor from Profile Pkwy to Curry Pk\",\"timestamp\":null}",
+    "txHash": "75744d61cef4ff96e3a97edd6b3515ef1df0620f093429891660103e7bf3acd3"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-jkte~8jaj.qqs9",
+      "location_area_surveyed": "Phase I East (Hopewell Development)",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1st to 2nd, Morton to Rogers",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-jkte~8jaj.qqs9\",\"location_area_surveyed\":\"Phase I East (Hopewell Development)\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1st to 2nd, Morton to Rogers\",\"timestamp\":null}",
+    "txHash": "1574044b8d0f850d8f70927c1467da040c0cbbd117c0ac74fbf2dc3b5d2f3f25"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-kegg_f3ri.n2hx",
+      "location_area_surveyed": "Former Bloomington Hospital",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "601 W 2nd Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-kegg_f3ri.n2hx\",\"location_area_surveyed\":\"Former Bloomington Hospital\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"601 W 2nd Street\",\"timestamp\":null}",
+    "txHash": "4f534be49620003a5d0baa28a1a796dea8e7a652ce04940970ff30ed4c4502ff"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-dis9.xgfq-nm7m",
+      "location_area_surveyed": "Downtown Square looking north",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "College & Kirkwood",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-dis9.xgfq-nm7m\",\"location_area_surveyed\":\"Downtown Square looking north\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"College & Kirkwood\",\"timestamp\":null}",
+    "txHash": "0c255d6f0a7a4409fca1e4cf0b0fbf1fb8a76a59ae6ece4f89f1260ee92d6ce2"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-98b5~b333_99gc",
+      "location_area_surveyed": "CBU Service Center",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "600 E Miller Dr.",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-98b5~b333_99gc\",\"location_area_surveyed\":\"CBU Service Center\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"600 E Miller Dr.\",\"timestamp\":null}",
+    "txHash": "095f40bc3c3f6c6117d1fca57c8b8e796a0c27748695e71a86be4104720dc903"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-8etj.sqgq.d3cz",
+      "location_area_surveyed": "South Griffy Neighborhood",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "South Griffy Neighborhood, Bloomington, IN",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-8etj.sqgq.d3cz\",\"location_area_surveyed\":\"South Griffy Neighborhood\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"South Griffy Neighborhood, Bloomington, IN\",\"timestamp\":null}",
+    "txHash": "581ed26b9b04dc2d9f5b1ab2be339c05736dc37427592e0d41863d7f97156484"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-47pd~zm5a_pxuk",
+      "location_area_surveyed": "Hopewell Redevelopment Site (East and West)",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "644-698 S Rogers St Bounded by W 2nd to the North, S Morton to the east, W 1st to the south, and S Euclide to the west",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-47pd~zm5a_pxuk\",\"location_area_surveyed\":\"Hopewell Redevelopment Site (East and West)\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"644-698 S Rogers St Bounded by W 2nd to the North, S Morton to the east, W 1st to the south, and S Euclide to the west\",\"timestamp\":null}",
+    "txHash": "e7cc33a71e47bac6f40403f49dec94a004790e34e2e93e3100c9044747e11132"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-6tnu_mxj3-9die",
+      "location_area_surveyed": "Switchyard Park, near East Parking lots",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S. Rogers St.",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-6tnu_mxj3-9die\",\"location_area_surveyed\":\"Switchyard Park, near East Parking lots\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S. Rogers St.\",\"timestamp\":null}",
+    "txHash": "66ed93eee937aed2c389a77a839ca2e2ef0bf762471240ff6c9ee3f298bb1054"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-izb3_9u3g_fuge",
+      "location_area_surveyed": "RCA Park and Fields North of RCA Park as Requested by Animal Control",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1400 W RCA Park Drive",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-izb3_9u3g_fuge\",\"location_area_surveyed\":\"RCA Park and Fields North of RCA Park as Requested by Animal Control\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1400 W RCA Park Drive\",\"timestamp\":null}",
+    "txHash": "a3f30c98001ebc972b7b35c288db1f53f8cb742e4f74463534378daa69c4373a"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-aiwx.ftxf~qt5s",
+      "location_area_surveyed": "Winston Thomas Site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Near 260 W Gordon Pike",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-aiwx.ftxf~qt5s\",\"location_area_surveyed\":\"Winston Thomas Site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Near 260 W Gordon Pike\",\"timestamp\":null}",
+    "txHash": "5816be173b3d190e2c5592d8740c65ac163ea0d025baf5ccae51edc4113e3cc8"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-ibbi-zmpn-y7wy",
+      "location_area_surveyed": "North end of Winston Thomas site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Near 260 Gordon Pike, Bloomington IN",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-ibbi-zmpn-y7wy\",\"location_area_surveyed\":\"North end of Winston Thomas site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Near 260 Gordon Pike, Bloomington IN\",\"timestamp\":null}",
+    "txHash": "266852fe1b319e4b9cb3b503e6ea5e63ad54f09059817ca6d27b1b8feba9447f"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-fyzq-452f_6d29",
+      "location_area_surveyed": "Winston Thomas site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Near 260 W Gordon Pike, Bloomington , IN",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-fyzq-452f_6d29\",\"location_area_surveyed\":\"Winston Thomas site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Near 260 W Gordon Pike, Bloomington , IN\",\"timestamp\":null}",
+    "txHash": "22af16d971d0f386453378937bcd9f27d0e031142520b252d31ecca766ec8a10"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-y54t.p7va-5n9k",
+      "location_area_surveyed": "Griffy, Cascades, Miller-Showers",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "3300 N Dunn Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-y54t.p7va-5n9k\",\"location_area_surveyed\":\"Griffy, Cascades, Miller-Showers\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"3300 N Dunn Street\",\"timestamp\":null}",
+    "txHash": "aea3bc4dab6ddbb1ed5b7f15779b09fb43e1b22b6567f54fb08fe9d797c60277"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-g42h_rd8n~nv32",
+      "location_area_surveyed": "Utilities Service Center storage yard and north parking lot.",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "600 E Miller Dr.",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-g42h_rd8n~nv32\",\"location_area_surveyed\":\"Utilities Service Center storage yard and north parking lot.\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"600 E Miller Dr.\",\"timestamp\":null}",
+    "txHash": "bfb13816be46f192b08eed517daa73c9bb282fb8f8039d7a7f50a242090d9b30"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-inm3-whv5-nqva",
+      "location_area_surveyed": "Former Bloomington Hospital Parking Garage",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "601 W 2nd Street",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-inm3-whv5-nqva\",\"location_area_surveyed\":\"Former Bloomington Hospital Parking Garage\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"601 W 2nd Street\",\"timestamp\":null}",
+    "txHash": "4dbab3da9fd6f8c7bb37069a0da1621bb3ef2bd4bd3f49bc85ec7a94da53e12a"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2;DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-2tca~th2n~zv7h",
+      "location_area_surveyed": "Proposed annexation areas on south and west sides of Bloomington, IN.",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "3797 S Cramer Circle, 3712 W Tyler Lane, 927 S Curry Pike, 5448 W Hoge Drive, and 2356 W Industrial Park Drive",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2;DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-2tca~th2n~zv7h\",\"location_area_surveyed\":\"Proposed annexation areas on south and west sides of Bloomington, IN.\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"3797 S Cramer Circle, 3712 W Tyler Lane, 927 S Curry Pike, 5448 W Hoge Drive, and 2356 W Industrial Park Drive\",\"timestamp\":null}",
+    "txHash": "2276a46f1969294e4be14a9436b858e0ff15f4fee313955495cdd4782c5b98b2"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-8k59_xk8d_k9nh",
+      "location_area_surveyed": "Hopewell Development",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "635 S Rogers Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-8k59_xk8d_k9nh\",\"location_area_surveyed\":\"Hopewell Development\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"635 S Rogers Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "e399b9c4881d8b7343221777a396a2839c1a35faf0b25ecbb5e77a86f90a589b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-p9gv~r3qb_2ymr",
+      "location_area_surveyed": "CBU East Storage Tank near the intersection of Bill Mallory Blvd and Hwy 446",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "CBU East Storage Tank near the intersection of Bill Mallory Blvd and Hwy 446, orbital flight around the perimeter and approximately 50' above the top of the tank",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-p9gv~r3qb_2ymr\",\"location_area_surveyed\":\"CBU East Storage Tank near the intersection of Bill Mallory Blvd and Hwy 446\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"CBU East Storage Tank near the intersection of Bill Mallory Blvd and Hwy 446, orbital flight around the perimeter and approximately 50' above the top of the tank\",\"timestamp\":null}",
+    "txHash": "712ba27ea0429a2f4bb65c1c3c333b16d0dac9532d1dddf289b6bb7ce0f0cf5c"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "ITS Information & Technology Services",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-nw24.c43b-sw9w",
+      "location_area_surveyed": "The Mill",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "642 N Madison St, Bloomington, IN 47404",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"ITS Information & Technology Services\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-nw24.c43b-sw9w\",\"location_area_surveyed\":\"The Mill\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"642 N Madison St, Bloomington, IN 47404\",\"timestamp\":null}",
+    "txHash": "4f5cfe42ccb0f57bae18c1318cce95157029d64a7e4bfaec89b6fd17b928ded0"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-kxfp~3ytf_a8s6",
+      "location_area_surveyed": "Winston Thomas WWTP",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Winston Thomas Wastewater Treatment Plant former site on Gordon Pike, mapping was completed over the entire job site",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-kxfp~3ytf_a8s6\",\"location_area_surveyed\":\"Winston Thomas WWTP\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Winston Thomas Wastewater Treatment Plant former site on Gordon Pike, mapping was completed over the entire job site\",\"timestamp\":null}",
+    "txHash": "df526a25121019f95ca7b0f97551642d57c02fcd910bc314d08f6e1285afdf00"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-giwf~qvae_3bih",
+      "location_area_surveyed": "Spicewood Ln/S Sare Road",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Spicewood Ln/S Sare Road",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-giwf~qvae_3bih\",\"location_area_surveyed\":\"Spicewood Ln/S Sare Road\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Spicewood Ln/S Sare Road\",\"timestamp\":null}",
+    "txHash": "0dad6aca156f67bec5ea45791369cc4b121b38efabf2d0fa80c72cccc035437d"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-475y-8znb.52q2",
+      "location_area_surveyed": "Winston Thomas WWTP site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Winston Thomas WWTP off of Gordon Pike, took",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-475y-8znb.52q2\",\"location_area_surveyed\":\"Winston Thomas WWTP site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Winston Thomas WWTP off of Gordon Pike, took\",\"timestamp\":null}",
+    "txHash": "ef584d20dca532775422f906fdf1f085fc5f34c8373ce289aecd179f7b607bd4"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-a45m_zybw_n6u2",
+      "location_area_surveyed": "Winston Thomas WWTP site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Winston Thomas WWTP site on Gordon Pike - captured video of former WWTP structures and basins",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-a45m_zybw_n6u2\",\"location_area_surveyed\":\"Winston Thomas WWTP site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Winston Thomas WWTP site on Gordon Pike - captured video of former WWTP structures and basins\",\"timestamp\":null}",
+    "txHash": "dc7759070f1ebbf865ff965090597f838913308063222cd9b94412b52dfa7902"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-6uhk-s3x4-srm2",
+      "location_area_surveyed": "Winston Thomas Site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Winston Thomas Site near 315 W Gordon Pike - flight covered the planned demolition site in the center of the property",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-6uhk-s3x4-srm2\",\"location_area_surveyed\":\"Winston Thomas Site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Winston Thomas Site near 315 W Gordon Pike - flight covered the planned demolition site in the center of the property\",\"timestamp\":null}",
+    "txHash": "f7ad6e7df9c4861e694745a5f2ffcaab8959e9655dd218c19f977ad50aadb414"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-d4tg.6xzp.gw7f",
+      "location_area_surveyed": "Video and photos taken of lift station located off of Indiana Bell CT on the south side of Park Ridge East Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Indiana Bell Ct. and E Morningside Drive - flight focused in 15 ft orbit around lift station with one lift shot capturing the horizon in the area",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-d4tg.6xzp.gw7f\",\"location_area_surveyed\":\"Video and photos taken of lift station located off of Indiana Bell CT on the south side of Park Ridge East Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Indiana Bell Ct. and E Morningside Drive - flight focused in 15 ft orbit around lift station with one lift shot capturing the horizon in the area\",\"timestamp\":null}",
+    "txHash": "d7a033ae429f943d02efea37a304d8ff81bbf363eb14bd2c57344d53dbbf9c8b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-dj9r-nhfq.bc57",
+      "location_area_surveyed": "Utilities Service Center storage yard",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "600 E Miller Drive/Henderson St. - planned route over entire storage yard at the service center",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-dj9r-nhfq.bc57\",\"location_area_surveyed\":\"Utilities Service Center storage yard\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"600 E Miller Drive/Henderson St. - planned route over entire storage yard at the service center\",\"timestamp\":null}",
+    "txHash": "45a26609413f6ba0a9b5aaffd5262a31ebdf38678c37afae8919f56a32b5e8f7"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-4ys4.5r8n-6dze",
+      "location_area_surveyed": "Multiple CBU Lift Stations",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Near - 3611 S Leonard Springs Rd, Near - 3328 W Woodhaven Dr, Near - 2929 S Olcott Blvd was cancelled due to obstacles",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-4ys4.5r8n-6dze\",\"location_area_surveyed\":\"Multiple CBU Lift Stations\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Near - 3611 S Leonard Springs Rd, Near - 3328 W Woodhaven Dr, Near - 2929 S Olcott Blvd was cancelled due to obstacles\",\"timestamp\":null}",
+    "txHash": "ebae2f9980318fc023684f9f6fbe8aa45ff202842f8cf7245602eaa8f66917a0"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Fire",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-myr5~sh7k~q3z2",
+      "location_area_surveyed": "Dunn Meadows, Switch Yard, and Kirkwood",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "226 South College Ave, Bloomington IN 47401",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Fire\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-myr5~sh7k~q3z2\",\"location_area_surveyed\":\"Dunn Meadows, Switch Yard, and Kirkwood\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"226 South College Ave, Bloomington IN 47401\",\"timestamp\":null}",
+    "txHash": "d2393c6224ec2ddaf43b725b73fb331482610d9a69e2fed11e9136aa13330f37"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-wim9-chaf.vrdq",
+      "location_area_surveyed": null,
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "5555 N Bottom Rd, Bloomington, IN 47404",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-wim9-chaf.vrdq\",\"location_area_surveyed\":null,\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"5555 N Bottom Rd, Bloomington, IN 47404\",\"timestamp\":null}",
+    "txHash": "50288a63beadd626662e7973c6216752dee3aea75c45d7cfa1b1cacb2ccbfd5b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-yj4t~3du8.5ds4",
+      "location_area_surveyed": "Side street located at 39.130257, -86.530986.",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Side street located at 39.130257, -86.530986/S Walnut St. Completed a nadir shot while tracking the sweeper traveling west, orbiting shot of the truck going east, and post cleaning of the street and storm inlet.",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-yj4t~3du8.5ds4\",\"location_area_surveyed\":\"Side street located at 39.130257, -86.530986.\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Side street located at 39.130257, -86.530986/S Walnut St. Completed a nadir shot while tracking the sweeper traveling west, orbiting shot of the truck going east, and post cleaning of the street and storm inlet.\",\"timestamp\":null}",
+    "txHash": "4cd68d439657289b78b22b1394a22389520cc5507e4aef673e1f51052848386d"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-6fjs.43tr~qegk",
+      "location_area_surveyed": "Hopewell East",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "301 W 2nd Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-6fjs.43tr~qegk\",\"location_area_surveyed\":\"Hopewell East\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"301 W 2nd Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "26e3da660f5947d47e7c8e370047b8ef34f2b68bfa4daf424e6a208a5055fe9e"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-5pyq.rhvy.b88u",
+      "location_area_surveyed": "Central area of the Hopewell Commons development located in the eastern portion of the future Hopewell Neighborhood",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "301 W 2nd Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-5pyq.rhvy.b88u\",\"location_area_surveyed\":\"Central area of the Hopewell Commons development located in the eastern portion of the future Hopewell Neighborhood\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"301 W 2nd Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "53fe70be889b4cbe0d835c81419f535e051e768685d3fe841e888c16bca9ae44"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Engineering",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-rpp8~37at_b8b4",
+      "location_area_surveyed": "Hopewell East construction site",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "301 W 2nd Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Engineering\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-rpp8~37at_b8b4\",\"location_area_surveyed\":\"Hopewell East construction site\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"301 W 2nd Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "4d8d7d270377180b4bf3a53d004d679914bdd203efcf1ef8dbd7b3d811568be0"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "HAND Housing and Neighborhood Development",
+      "drone_make_model": "DJI Mavic 2",
+      "faa_drone_reg": null,
+      "flight_id": "row-6h5d.pjxg~kbeq",
+      "location_area_surveyed": "Broadview Learning Center",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "705 W Coolidge Drive, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"HAND Housing and Neighborhood Development\",\"drone_make_model\":\"DJI Mavic 2\",\"faa_drone_reg\":null,\"flight_id\":\"row-6h5d.pjxg~kbeq\",\"location_area_surveyed\":\"Broadview Learning Center\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"705 W Coolidge Drive, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "fd5579468273264135e670ccbfe0fac9ec27c18dff04d6cd707f6e20c8f1e2a8"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-8ixd-na2v~fs3u",
+      "location_area_surveyed": "At and around Lake Monroe Tailwaters",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "39.006752, -86.512574 - flight near Lake Monroe tower, pics and videos collected in a 100' orbit at a max AGL <300' 39.006614, -86.510252 - flight near Lake Monroe spillway - 750' orbit of spillway at a max AGL <300'",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-8ixd-na2v~fs3u\",\"location_area_surveyed\":\"At and around Lake Monroe Tailwaters\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"39.006752, -86.512574 - flight near Lake Monroe tower, pics and videos collected in a 100' orbit at a max AGL <300' 39.006614, -86.510252 - flight near Lake Monroe spillway - 750' orbit of spillway at a max AGL <300'\",\"timestamp\":null}",
+    "txHash": "67a193a8c0ac98a1f0e034f298a29007b53dc6c8abc194ae7a16e839b2df8b1b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Planning and Transportation",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-8qbe.qant_vdrz",
+      "location_area_surveyed": "Hopewell East Development",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "301 W 2nd Street, Bloomington, IN 47403",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Planning and Transportation\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-8qbe.qant_vdrz\",\"location_area_surveyed\":\"Hopewell East Development\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"301 W 2nd Street, Bloomington, IN 47403\",\"timestamp\":null}",
+    "txHash": "a82e47326f2cfcffce5f42c47f901de90854df5d2839257667828fdcc691b465"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Engineering",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-yac3~akzw.htfi",
+      "location_area_surveyed": "Hopewell East Development",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "301 W 2nd Street, Bloomington, IN 47404 between W 2nd & W 1st, and S Rogers and S Morton",
+      "timestamp": null
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Engineering\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-yac3~akzw.htfi\",\"location_area_surveyed\":\"Hopewell East Development\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"301 W 2nd Street, Bloomington, IN 47404 between W 2nd & W 1st, and S Rogers and S Morton\",\"timestamp\":null}",
+    "txHash": "f6b08ea2f6b109cb9ec9f859b1b788abf0404232b0d2e2ee58b82ead685ed23c"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-4t8z_arqe.9jcu",
+      "location_area_surveyed": "Hopewell Commons",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Hopewell Commons. Cross Streets are W 2nd, W 1st, S Morton, and S Rogers",
+      "timestamp": "2024-12-12T18:38:33.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-4t8z_arqe.9jcu\",\"location_area_surveyed\":\"Hopewell Commons\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Hopewell Commons. Cross Streets are W 2nd, W 1st, S Morton, and S Rogers\",\"timestamp\":\"2024-12-12T18:38:33.000Z\"}",
+    "txHash": "16bd10f758f4f3d9f7c016f65174b9df6fc57e936debffb44cf8c8d552d0d658"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-gfj5_wvzv~wdb4",
+      "location_area_surveyed": "Twin Lakes Recreation Center",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1700 W Bloomfield Rd, Bloomington, IN 47403",
+      "timestamp": "2024-11-08T18:21:29.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-gfj5_wvzv~wdb4\",\"location_area_surveyed\":\"Twin Lakes Recreation Center\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1700 W Bloomfield Rd, Bloomington, IN 47403\",\"timestamp\":\"2024-11-08T18:21:29.000Z\"}",
+    "txHash": "3a9b016238820bc67f535b693c0e1c0c05dcb1a842db63e3318553b0c737785c"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-4ymx_jg76-p3g8",
+      "location_area_surveyed": "Blucher Poole Wastewater Treatment Plant",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "5555 N Bottom Rd Bloomington, IN - Orbital shots of the plant from various AGL, max AGL 350'",
+      "timestamp": "2024-10-23T18:01:57.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-4ymx_jg76-p3g8\",\"location_area_surveyed\":\"Blucher Poole Wastewater Treatment Plant\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"5555 N Bottom Rd Bloomington, IN - Orbital shots of the plant from various AGL, max AGL 350'\",\"timestamp\":\"2024-10-23T18:01:57.000Z\"}",
+    "txHash": "9f29b910cb571695db9212eb6d2d00a2db88d8a8d00597597c675e567b339876"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-3ns5.6k3y.6i2c",
+      "location_area_surveyed": "Hopewell Commons",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "640 S Morton St, Bloomington IN. Cross Streets: W First St, W Second St, S Rogers St. Flight remained within block.",
+      "timestamp": "2024-10-24T17:15:42.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-3ns5.6k3y.6i2c\",\"location_area_surveyed\":\"Hopewell Commons\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"640 S Morton St, Bloomington IN. Cross Streets: W First St, W Second St, S Rogers St. Flight remained within block.\",\"timestamp\":\"2024-10-24T17:15:42.000Z\"}",
+    "txHash": "771de44290631050a5b17bfbb5a97ddcf8b3cca3a6f18e8328b5110fff674043"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Parks and Recreation",
+      "drone_make_model": "DJI Spark",
+      "faa_drone_reg": null,
+      "flight_id": "row-vefz_4mcu_4fqk",
+      "location_area_surveyed": "Switchyard Park",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "1601 S Rogers St, Bloomington, IN 47403",
+      "timestamp": "2024-10-15T12:59:14.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Parks and Recreation\",\"drone_make_model\":\"DJI Spark\",\"faa_drone_reg\":null,\"flight_id\":\"row-vefz_4mcu_4fqk\",\"location_area_surveyed\":\"Switchyard Park\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"1601 S Rogers St, Bloomington, IN 47403\",\"timestamp\":\"2024-10-15T12:59:14.000Z\"}",
+    "txHash": "641b23f91955d67c400291ab1327cee2e4db8d3ca9ac47325357bd08315a4735"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Engineering",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-rmhn_a4b5-h78s",
+      "location_area_surveyed": "Hopewell South",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "Fairview and 1st",
+      "timestamp": "2024-09-19T16:01:29.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Engineering\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-rmhn_a4b5-h78s\",\"location_area_surveyed\":\"Hopewell South\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"Fairview and 1st\",\"timestamp\":\"2024-09-19T16:01:29.000Z\"}",
+    "txHash": "c1701b495657713f9ea298bcc8a4a21b92aac55b625b920ed286d6781d76ee9b"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Engineering",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-uw9g~xseh~yc5k",
+      "location_area_surveyed": "Hopewell Demo",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "709 W 1st Street Fairview and first",
+      "timestamp": "2024-08-29T17:45:46.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Engineering\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-uw9g~xseh~yc5k\",\"location_area_surveyed\":\"Hopewell Demo\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"709 W 1st Street Fairview and first\",\"timestamp\":\"2024-08-29T17:45:46.000Z\"}",
+    "txHash": "c996300651dad9bb3bd8ba5b4d1394ed6e1d37d15a171f8a1b1900b00a162c48"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Engineering",
+      "drone_make_model": "DJI Inspire",
+      "faa_drone_reg": null,
+      "flight_id": "row-v7fr-ews4~45mz",
+      "location_area_surveyed": "Hopewell demo area",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "709 W 1st Street. 1street and Fairview",
+      "timestamp": "2024-08-28T17:30:18.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Engineering\",\"drone_make_model\":\"DJI Inspire\",\"faa_drone_reg\":null,\"flight_id\":\"row-v7fr-ews4~45mz\",\"location_area_surveyed\":\"Hopewell demo area\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"709 W 1st Street. 1street and Fairview\",\"timestamp\":\"2024-08-28T17:30:18.000Z\"}",
+    "txHash": "edf762ba096a2cda1704db1958eeb08c06369a7f7f7726cdbf1f5c277d24f92d"
+  },
+  {
+    "tx": {
+      "authorized_use": null,
+      "department": "Utilities",
+      "drone_make_model": "DJI Mavic 3",
+      "faa_drone_reg": null,
+      "flight_id": "row-gyrs-xzm4.gikd",
+      "location_area_surveyed": "Blucher Poole WWTP",
+      "pilot_certificate": null,
+      "snapshot_hash": "2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc",
+      "source_url": "https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD",
+      "street_address_area_surveyed": "5555 N Bottom Rd., Bloomington, IN 47404",
+      "timestamp": "2024-08-28T17:32:37.000Z"
+    },
+    "canonical": "{\"authorized_use\":null,\"department\":\"Utilities\",\"drone_make_model\":\"DJI Mavic 3\",\"faa_drone_reg\":null,\"flight_id\":\"row-gyrs-xzm4.gikd\",\"location_area_surveyed\":\"Blucher Poole WWTP\",\"pilot_certificate\":null,\"snapshot_hash\":\"2afebc00d97afb1c6351a087031216ea0ebd3f686cc49c564bb5e7c2c533f9fc\",\"source_url\":\"https://data.bloomington.in.gov/api/views/3a7f-6kb4/rows.xml?accessType=DOWNLOAD\",\"street_address_area_surveyed\":\"5555 N Bottom Rd., Bloomington, IN 47404\",\"timestamp\":\"2024-08-28T17:32:37.000Z\"}",
+    "txHash": "3452eb52bfb31879ee9e537798305acdc1a3f53dda0ce27bee4c1b0b267e899e"
+  }
+]

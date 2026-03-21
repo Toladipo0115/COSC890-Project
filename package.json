@@ -1,0 +1,31 @@
+{
+  "name": "uav-flight-audit-log",
+  "version": "1.0.0",
+  "description": "Blockchain-backed UAV flight audit log for City of Bloomington",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "dev:node": "node src/p2p/node.js",
+    "ingest": "node scripts/ingest.js",
+    "keygen": "node scripts/keygen.js",
+    "simulate:fork": "node src/p2p/simulate-fork.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --runInBand"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.4.0",
+    "@noble/hashes": "^1.4.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fast-xml-parser": "^4.4.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}

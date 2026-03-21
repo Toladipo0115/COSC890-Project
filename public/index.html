@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UAV Flight Audit — City of Bloomington</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow:wght@300;400;600;700&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet">
+<style>
+  /* ── Reset + Variables ───────────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #0d0f0f;
+    --surface:   #141818;
+    --surface2:  #1a1f1f;
+    --border:    #2a3030;
+    --amber:     #f5a623;
+    --amber-dim: #7a5010;
+    --amber-glow:#f5a62322;
+    --green:     #4caf7d;
+    --red:       #e05252;
+    --text:      #d4cfc8;
+    --text-dim:  #6b6560;
+    --mono:      'Share Tech Mono', monospace;
+    --sans:      'Barlow', sans-serif;
+    --display:   'Barlow Condensed', sans-serif;
+  }
+
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── Scrollbar ───────────────────────────────────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--amber-dim); border-radius: 3px; }
+
+  /* ── Layout ──────────────────────────────────────────────────────────── */
+  .shell {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    min-height: 100vh;
+  }
+
+  /* ── Header ──────────────────────────────────────────────────────────── */
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    background: var(--surface);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 1.3rem;
+    letter-spacing: 0.08em;
+    color: var(--amber);
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .logo span {
+    color: var(--text-dim);
+    font-weight: 300;
+  }
+
+  .tagline {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    border-left: 1px solid var(--border);
+    padding-left: 1.5rem;
+    display: none;
+  }
+
+  @media (min-width: 700px) { .tagline { display: block; } }
+
+  .chain-status {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  .status-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--text-dim);
+    transition: background 0.3s;
+  }
+  .status-dot.live { background: var(--green); box-shadow: 0 0 6px var(--green); }
+
+  /* ── Nav ─────────────────────────────────────────────────────────────── */
+  nav {
+    background: var(--surface);
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    padding: 0 2rem;
+    gap: 0;
+  }
+
+  .tab {
+    padding: 0.75rem 1.5rem;
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: color 0.2s, border-color 0.2s;
+    user-select: none;
+  }
+
+  .tab:hover { color: var(--text); }
+
+  .tab.active {
+    color: var(--amber);
+    border-bottom-color: var(--amber);
+  }
+
+  /* ── Pages ───────────────────────────────────────────────────────────── */
+  .page { display: none; padding: 2rem; animation: fadeIn 0.2s ease; }
+  .page.active { display: block; }
+
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  /* ── Section titles ──────────────────────────────────────────────────── */
+  .page-title {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+  }
+
+  .page-sub {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-bottom: 1.5rem;
+  }
+
+  /* ── Filters ─────────────────────────────────────────────────────────── */
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+    min-width: 160px;
+  }
+
+  .filter-group label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  input, select {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    padding: 0.4rem 0.6rem;
+    outline: none;
+    transition: border-color 0.2s;
+    width: 100%;
+  }
+
+  input:focus, select:focus { border-color: var(--amber); }
+  select option { background: var(--surface); }
+
+  /* ── Buttons ─────────────────────────────────────────────────────────── */
+  .btn {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--amber);
+    background: transparent;
+    color: var(--amber);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    align-self: flex-end;
+  }
+
+  .btn:hover { background: var(--amber); color: var(--bg); }
+  .btn:active { opacity: 0.8; }
+
+  .btn-ghost {
+    border-color: var(--border);
+    color: var(--text-dim);
+  }
+  .btn-ghost:hover { background: var(--surface2); color: var(--text); }
+
+  /* ── Tables ──────────────────────────────────────────────────────────── */
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+
+  thead th {
+    background: var(--surface2);
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 0.6rem 0.9rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+  }
+
+  tbody tr {
+    border-bottom: 1px solid var(--border);
+    transition: background 0.1s;
+    cursor: pointer;
+  }
+
+  tbody tr:hover { background: var(--amber-glow); }
+  tbody tr:last-child { border-bottom: none; }
+
+  td {
+    padding: 0.55rem 0.9rem;
+    vertical-align: top;
+    max-width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  td.mono { font-family: var(--mono); font-size: 0.75rem; color: var(--amber); }
+  td.dim  { color: var(--text-dim); }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-dim);
+    font-family: var(--mono);
+    font-size: 0.8rem;
+  }
+
+  /* ── Pagination ──────────────────────────────────────────────────────── */
+  .pagination {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    justify-content: flex-end;
+  }
+
+  /* ── Block Explorer ──────────────────────────────────────────────────── */
+  .block-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  @media (max-width: 900px) {
+    .block-grid { grid-template-columns: 1fr; }
+  }
+
+  .block-list {
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .block-item {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .block-item:last-child { border-bottom: none; }
+  .block-item:hover { background: var(--amber-glow); }
+  .block-item.selected { background: var(--amber-glow); border-left: 3px solid var(--amber); }
+
+  .block-index {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: var(--amber);
+    min-width: 48px;
+    text-align: center;
+  }
+
+  .block-meta { min-width: 0; }
+  .block-hash {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .block-info {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    margin-top: 0.1rem;
+  }
+
+  /* ── Block Detail ────────────────────────────────────────────────────── */
+  .detail-panel {
+    border: 1px solid var(--border);
+  }
+
+  .detail-header {
+    background: var(--surface2);
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .detail-title {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--amber);
+  }
+
+  .detail-sub {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  .kv-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 0;
+    font-family: var(--mono);
+    font-size: 0.78rem;
+  }
+
+  .kv-grid > * {
+    padding: 0.45rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .kv-label {
+    color: var(--text-dim);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: var(--surface2);
+  }
+
+  .kv-value { color: var(--amber); }
+
+  .tx-hash-list {
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  .tx-hash-chip {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--amber);
+    padding: 0.3rem 0.6rem;
+    border: 1px solid var(--amber-dim);
+    background: var(--amber-glow);
+    cursor: pointer;
+    transition: border-color 0.15s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .tx-hash-chip:hover { border-color: var(--amber); }
+
+  /* ── Verify Page ─────────────────────────────────────────────────────── */
+  .verify-box {
+    max-width: 720px;
+  }
+
+  .verify-input-row {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .verify-input-row input { flex: 1; }
+
+  .verdict {
+    padding: 2rem;
+    border: 2px solid var(--border);
+    margin-bottom: 1.5rem;
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+
+  .verdict.show { display: block; }
+
+  .verdict.pass { border-color: var(--green); background: #4caf7d11; }
+  .verdict.fail { border-color: var(--red);   background: #e0525211; }
+
+  .verdict-icon {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .verdict-label {
+    font-family: var(--display);
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .verdict.pass .verdict-label { color: var(--green); }
+  .verdict.fail .verdict-label { color: var(--red); }
+
+  .verdict-reason {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-top: 0.5rem;
+  }
+
+  .proof-tree {
+    margin-top: 1.5rem;
+    border: 1px solid var(--border);
+  }
+
+  .proof-tree-title {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    padding: 0.5rem 1rem;
+    background: var(--surface2);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .proof-step {
+    display: grid;
+    grid-template-columns: 60px 60px 1fr;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 0.72rem;
+  }
+
+  .proof-step:last-child { border-bottom: none; }
+
+  .proof-dir {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.4rem;
+    text-align: center;
+  }
+
+  .proof-dir.left  { color: var(--amber); border: 1px solid var(--amber-dim); }
+  .proof-dir.right { color: var(--green); border: 1px solid #2d5c3f; }
+
+  .proof-step-num { color: var(--text-dim); }
+  .proof-hash { color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  /* ── Loading spinner ─────────────────────────────────────────────────── */
+  .spinner {
+    display: inline-block;
+    width: 16px; height: 16px;
+    border: 2px solid var(--border);
+    border-top-color: var(--amber);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .loading-row td { color: var(--text-dim); font-family: var(--mono); font-size: 0.8rem; }
+
+  /* ── Misc ────────────────────────────────────────────────────────────── */
+  .badge {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    padding: 0.15rem 0.45rem;
+    border: 1px solid;
+  }
+
+  .badge-amber { color: var(--amber); border-color: var(--amber-dim); background: var(--amber-glow); }
+  .badge-green { color: var(--green); border-color: #2d5c3f; background: #4caf7d11; }
+
+  .no-select { user-select: none; }
+
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+
+<div class="shell">
+
+  <!-- Header -->
+  <header>
+    <div class="logo">UAV Audit <span>// Bloomington</span></div>
+    <div class="tagline">cryptographic flight record system · ed25519 · sha-256</div>
+    <div class="chain-status">
+      <div class="status-dot" id="statusDot"></div>
+      <span id="statusText">connecting...</span>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav>
+    <div class="tab active no-select" data-page="explorer">Dataset Explorer</div>
+    <div class="tab no-select" data-page="blocks">Block Explorer</div>
+    <div class="tab no-select" data-page="verify">Verify Flight</div>
+  </nav>
+
+  <!-- ── Page 1: Dataset Explorer ──────────────────────────────────────── -->
+  <div class="page active" id="page-explorer">
+    <div class="page-title">Dataset Explorer</div>
+    <div class="page-sub" id="explorerSub">loading...</div>
+
+    <div class="filters">
+      <div class="filter-group">
+        <label>Search (location / drone / dept)</label>
+        <input type="text" id="filterSearch" placeholder="e.g. downtown, DJI, Public Works">
+      </div>
+      <div class="filter-group">
+        <label>Date From</label>
+        <input type="date" id="filterFrom">
+      </div>
+      <div class="filter-group">
+        <label>Date To</label>
+        <input type="date" id="filterTo">
+      </div>
+      <div class="filter-group">
+        <label>Drone Model</label>
+        <select id="filterDrone"><option value="">All models</option></select>
+      </div>
+      <button class="btn" id="btnApplyFilter">Apply</button>
+      <button class="btn btn-ghost" id="btnClearFilter">Clear</button>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Flight ID</th>
+            <th>Timestamp</th>
+            <th>Department</th>
+            <th>Drone Model</th>
+            <th>Location</th>
+            <th>Authorized Use</th>
+            <th>Tx Hash</th>
+          </tr>
+        </thead>
+        <tbody id="explorerBody">
+          <tr class="loading-row"><td colspan="7"><span class="spinner"></span>Loading chain...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pagination">
+      <button class="btn btn-ghost" id="btnPrevPage">← Prev</button>
+      <span id="pageInfo">—</span>
+      <button class="btn btn-ghost" id="btnNextPage">Next →</button>
+    </div>
+  </div>
+
+  <!-- ── Page 2: Block Explorer ─────────────────────────────────────────── -->
+  <div class="page" id="page-blocks">
+    <div class="page-title">Block Explorer</div>
+    <div class="page-sub" id="blockSub">loading...</div>
+
+    <div class="block-grid">
+      <div>
+        <div class="block-list" id="blockList">
+          <div class="empty-state">loading blocks...</div>
+        </div>
+      </div>
+      <div class="detail-panel" id="blockDetail">
+        <div class="empty-state" style="padding:3rem">← Select a block</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Page 3: Verify Flight ──────────────────────────────────────────── -->
+  <div class="page" id="page-verify">
+    <div class="page-title">Verify Flight</div>
+    <div class="page-sub">Paste a transaction hash to verify inclusion, signature, and Merkle proof</div>
+
+    <div class="verify-box">
+      <div class="verify-input-row">
+        <input type="text" id="verifyInput" placeholder="Enter txHash (64-char hex)..." spellcheck="false">
+        <button class="btn" id="btnVerify">Verify</button>
+      </div>
+
+      <div class="verdict" id="verdictBox">
+        <div class="verdict-icon" id="verdictIcon"></div>
+        <div class="verdict-label" id="verdictLabel"></div>
+        <div class="verdict-reason" id="verdictReason"></div>
+
+        <div class="proof-tree" id="proofTree" style="display:none">
+          <div class="proof-tree-title">Merkle Proof Path</div>
+          <div id="proofSteps"></div>
+        </div>
+
+        <div style="margin-top:1.5rem" id="verdictMeta"></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- .shell -->
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let allTxs   = [];   // flat list of { txHash, tx, blockIndex, blockHash }
+let filtered = [];
+let page     = 0;
+const PAGE_SIZE = 25;
+
+// ── Nav ────────────────────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(`page-${tab.dataset.page}`).classList.add('active');
+  });
+});
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function shortHash(h) { return h ? `${h.slice(0,8)}…${h.slice(-6)}` : '—'; }
+function fmtDate(iso)  {
+  if (!iso) return '—';
+  try { return new Date(iso).toLocaleDateString('en-US', { year:'numeric', month:'short', day:'numeric' }); }
+  catch { return iso; }
+}
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Load chain ─────────────────────────────────────────────────────────────
+async function loadChain() {
+  try {
+    const blocks = await fetch('/chain').then(r => r.json());
+
+    // Update status
+    document.getElementById('statusDot').classList.add('live');
+    document.getElementById('statusText').textContent =
+      `${blocks.length} blocks`;
+
+    // Fetch all tx details in parallel (skip genesis block 0)
+    const txFetches = [];
+    for (const block of blocks) {
+      if (block.index === 0 || !block.txHashes) continue;
+      // We'll get txs when we fetch full block
+    }
+
+    // Load full blocks for tx data
+    const fullBlocks = await Promise.all(
+      blocks.filter(b => b.index > 0).map(b =>
+        fetch(`/block/${b.blockHash}`).then(r => r.json())
+      )
+    );
+
+    // Flatten all txs
+    allTxs = [];
+    for (const block of fullBlocks) {
+      for (const txObj of (block.txs || [])) {
+        allTxs.push({
+          txHash:     txObj.txHash,
+          blockIndex: block.index,
+          blockHash:  block.blockHash,
+          tx:         txObj,
+        });
+      }
+    }
+
+    document.getElementById('statusText').textContent =
+      `${blocks.length} blocks · ${allTxs.length} txs`;
+
+    buildDroneFilter();
+    applyFilter();
+    renderBlocks(blocks);
+
+    document.getElementById('explorerSub').textContent =
+      `${allTxs.length} flight records · ${blocks.length - 1} blocks`;
+    document.getElementById('blockSub').textContent =
+      `${blocks.length} blocks in chain`;
+
+  } catch (e) {
+    document.getElementById('statusText').textContent = 'error — is server running?';
+    document.getElementById('explorerBody').innerHTML =
+      `<tr><td colspan="7" style="color:var(--red);font-family:var(--mono);padding:2rem">
+        Failed to load chain. Run: npm run ingest &amp;&amp; npm start
+      </td></tr>`;
+  }
+}
+
+// ── Dataset Explorer ───────────────────────────────────────────────────────
+function buildDroneFilter() {
+  const models = [...new Set(allTxs.map(t => t.tx.drone_make_model).filter(Boolean))].sort();
+  const sel = document.getElementById('filterDrone');
+  models.forEach(m => {
+    const opt = document.createElement('option');
+    opt.value = m; opt.textContent = m;
+    sel.appendChild(opt);
+  });
+}
+
+function applyFilter() {
+  const search = document.getElementById('filterSearch').value.toLowerCase().trim();
+  const from   = document.getElementById('filterFrom').value;
+  const to     = document.getElementById('filterTo').value;
+  const drone  = document.getElementById('filterDrone').value;
+
+  filtered = allTxs.filter(({ tx }) => {
+    if (search) {
+      const haystack = [
+        tx.location_area_surveyed,
+        tx.street_address_area_surveyed,
+        tx.drone_make_model,
+        tx.department,
+        tx.authorized_use,
+      ].join(' ').toLowerCase();
+      if (!haystack.includes(search)) return false;
+    }
+    if (drone && tx.drone_make_model !== drone) return false;
+    if (from && tx.timestamp && tx.timestamp < from) return false;
+    if (to   && tx.timestamp && tx.timestamp.slice(0,10) > to) return false;
+    return true;
+  });
+
+  page = 0;
+  renderExplorerPage();
+}
+
+function renderExplorerPage() {
+  const start  = page * PAGE_SIZE;
+  const slice  = filtered.slice(start, start + PAGE_SIZE);
+  const total  = filtered.length;
+  const tbody  = document.getElementById('explorerBody');
+
+  if (slice.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7" class="empty-state">No records match filters</td></tr>`;
+  } else {
+    tbody.innerHTML = slice.map(({ txHash, tx, blockIndex }) => `
+      <tr data-txhash="${esc(txHash)}">
+        <td class="mono">${esc(tx.flight_id ?? '—')}</td>
+        <td class="dim">${fmtDate(tx.timestamp)}</td>
+        <td>${esc(tx.department ?? '—')}</td>
+        <td>${esc(tx.drone_make_model ?? '—')}</td>
+        <td>${esc(tx.location_area_surveyed ?? '—')}</td>
+        <td>${esc(tx.authorized_use ?? '—')}</td>
+        <td class="mono" title="${esc(txHash)}">${shortHash(txHash)}</td>
+      </tr>
+    `).join('');
+  }
+
+  document.getElementById('pageInfo').textContent =
+    total === 0 ? 'No results' :
+    `${start + 1}–${Math.min(start + PAGE_SIZE, total)} of ${total}`;
+
+  document.getElementById('btnPrevPage').disabled = page === 0;
+  document.getElementById('btnNextPage').disabled = start + PAGE_SIZE >= total;
+
+  // Row click → go to verify
+  tbody.querySelectorAll('tr[data-txhash]').forEach(tr => {
+    tr.addEventListener('click', () => {
+      const hash = tr.dataset.txhash;
+      document.getElementById('verifyInput').value = hash;
+      // Switch to verify tab
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.querySelector('.tab[data-page="verify"]').classList.add('active');
+      document.getElementById('page-verify').classList.add('active');
+      runVerify(hash);
+    });
+  });
+}
+
+document.getElementById('btnApplyFilter').addEventListener('click', applyFilter);
+document.getElementById('btnClearFilter').addEventListener('click', () => {
+  document.getElementById('filterSearch').value = '';
+  document.getElementById('filterFrom').value   = '';
+  document.getElementById('filterTo').value     = '';
+  document.getElementById('filterDrone').value  = '';
+  applyFilter();
+});
+document.getElementById('filterSearch').addEventListener('keydown', e => {
+  if (e.key === 'Enter') applyFilter();
+});
+document.getElementById('btnPrevPage').addEventListener('click', () => { page--; renderExplorerPage(); });
+document.getElementById('btnNextPage').addEventListener('click', () => { page++; renderExplorerPage(); });
+
+// ── Block Explorer ─────────────────────────────────────────────────────────
+let blockData = [];
+
+function renderBlocks(blocks) {
+  blockData = blocks;
+  const list = document.getElementById('blockList');
+  list.innerHTML = blocks.map(b => `
+    <div class="block-item" data-hash="${esc(b.blockHash)}">
+      <div class="block-index">${b.index}</div>
+      <div class="block-meta">
+        <div class="block-hash">${shortHash(b.blockHash)}</div>
+        <div class="block-info">${b.txCount} txs · ${fmtDate(b.timestamp)}</div>
+      </div>
+    </div>
+  `).join('');
+
+  list.querySelectorAll('.block-item').forEach(item => {
+    item.addEventListener('click', () => {
+      list.querySelectorAll('.block-item').forEach(i => i.classList.remove('selected'));
+      item.classList.add('selected');
+      loadBlockDetail(item.dataset.hash);
+    });
+  });
+
+  // Auto-select first non-genesis block
+  const first = list.querySelector('.block-item[data-hash]');
+  if (first && blocks.length > 1) {
+    const nonGenesis = list.querySelectorAll('.block-item')[1];
+    if (nonGenesis) { nonGenesis.classList.add('selected'); loadBlockDetail(nonGenesis.dataset.hash); }
+  }
+}
+
+async function loadBlockDetail(hash) {
+  const panel = document.getElementById('blockDetail');
+  panel.innerHTML = `<div class="empty-state"><span class="spinner"></span>Loading...</div>`;
+  try {
+    const block = await fetch(`/block/${hash}`).then(r => r.json());
+    panel.innerHTML = `
+      <div class="detail-header">
+        <div class="detail-title">Block #${block.index}</div>
+        <div class="detail-sub">${block.txCount} transactions</div>
+      </div>
+      <div class="kv-grid">
+        <div class="kv-label">Block Hash</div>
+        <div class="kv-value truncate" title="${esc(block.blockHash)}">${esc(block.blockHash)}</div>
+        <div class="kv-label">Prev Hash</div>
+        <div class="kv-value truncate" title="${esc(block.prevHash)}">${esc(block.prevHash)}</div>
+        <div class="kv-label">Merkle Root</div>
+        <div class="kv-value truncate" title="${esc(block.merkleRoot)}">${esc(block.merkleRoot)}</div>
+        <div class="kv-label">Timestamp</div>
+        <div class="kv-value">${esc(block.timestamp)}</div>
+        <div class="kv-label">Nonce</div>
+        <div class="kv-value">${block.nonce}</div>
+        <div class="kv-label">Difficulty</div>
+        <div class="kv-value">${block.difficulty}</div>
+        <div class="kv-label">Tx Count</div>
+        <div class="kv-value">${block.txCount}</div>
+      </div>
+      <div style="padding:0.75rem 1.25rem;border-bottom:1px solid var(--border);
+                  font-family:var(--mono);font-size:0.68rem;letter-spacing:.1em;
+                  text-transform:uppercase;color:var(--text-dim);background:var(--surface2)">
+        Transaction Hashes
+      </div>
+      <div class="tx-hash-list">
+        ${(block.txHashes || []).map(h => `
+          <div class="tx-hash-chip" data-hash="${esc(h)}" title="${esc(h)}">${esc(h)}</div>
+        `).join('')}
+      </div>
+    `;
+
+    panel.querySelectorAll('.tx-hash-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.getElementById('verifyInput').value = chip.dataset.hash;
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+        document.querySelector('.tab[data-page="verify"]').classList.add('active');
+        document.getElementById('page-verify').classList.add('active');
+        runVerify(chip.dataset.hash);
+      });
+    });
+
+  } catch(e) {
+    panel.innerHTML = `<div class="empty-state" style="color:var(--red)">Failed to load block</div>`;
+  }
+}
+
+// ── Verify ─────────────────────────────────────────────────────────────────
+async function runVerify(txHash) {
+  const box    = document.getElementById('verdictBox');
+  const icon   = document.getElementById('verdictIcon');
+  const label  = document.getElementById('verdictLabel');
+  const reason = document.getElementById('verdictReason');
+  const tree   = document.getElementById('proofTree');
+  const steps  = document.getElementById('proofSteps');
+  const meta   = document.getElementById('verdictMeta');
+
+  box.className = 'verdict show';
+  icon.textContent  = '⏳';
+  label.textContent = 'Verifying...';
+  reason.textContent = '';
+  tree.style.display = 'none';
+  meta.innerHTML = '';
+
+  try {
+    const result = await fetch('/verify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ txHash }),
+    }).then(r => r.json());
+
+    if (result.valid) {
+      box.className = 'verdict show pass';
+      icon.textContent  = '✅';
+      label.textContent = 'PASS';
+      reason.textContent = result.reason;
+
+      // Show Merkle proof path
+      if (result.proof && result.proof.length > 0) {
+        tree.style.display = 'block';
+        steps.innerHTML = result.proof.map((step, i) => `
+          <div class="proof-step">
+            <div class="proof-step-num">#${i + 1}</div>
+            <div class="proof-dir ${step.direction}">${step.direction.toUpperCase()}</div>
+            <div class="proof-hash truncate" title="${esc(step.hash)}">${esc(step.hash)}</div>
+          </div>
+        `).join('');
+      }
+
+      meta.innerHTML = `
+        <div class="kv-grid" style="border:1px solid var(--border)">
+          <div class="kv-label">Block Index</div>
+          <div class="kv-value">${result.blockIndex ?? '—'}</div>
+          <div class="kv-label">Block Hash</div>
+          <div class="kv-value truncate" title="${esc(result.blockHash)}">${esc(result.blockHash)}</div>
+          <div class="kv-label">Merkle Root</div>
+          <div class="kv-value truncate" title="${esc(result.merkleRoot)}">${esc(result.merkleRoot)}</div>
+          <div class="kv-label">Tx Hash</div>
+          <div class="kv-value truncate" title="${esc(txHash)}">${esc(txHash)}</div>
+        </div>
+      `;
+
+    } else {
+      box.className = 'verdict show fail';
+      icon.textContent  = '❌';
+      label.textContent = 'FAIL';
+      reason.textContent = result.reason || 'Verification failed';
+    }
+
+  } catch(e) {
+    box.className = 'verdict show fail';
+    icon.textContent  = '❌';
+    label.textContent = 'ERROR';
+    reason.textContent = 'Could not reach API. Is the server running?';
+  }
+}
+
+document.getElementById('btnVerify').addEventListener('click', () => {
+  const hash = document.getElementById('verifyInput').value.trim();
+  if (!hash) return;
+  runVerify(hash);
+});
+
+document.getElementById('verifyInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') document.getElementById('btnVerify').click();
+});
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+loadChain();
+</script>
+</body>
+</html>
