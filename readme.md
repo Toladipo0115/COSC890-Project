@@ -174,6 +174,19 @@ curl http://localhost:3002/status
 curl http://localhost:3003/status
 ```
 
+Run on 3 seperate servers
+```bash
+# Terminal 1
+PORT=3001 npm start
+
+# Terminal 2
+PORT=3002 npm start
+
+# Terminal 3
+PORT=3003 npm start
+```
+
+
 ### Fork simulation
 ```bash
 npm run simulate:fork
