@@ -27,6 +27,11 @@ No blockchain frameworks. Pure Node.js, Ed25519, SHA-256, Merkle trees, PoW.
 npm install
 ```
 
+### Copy and fill environment variables
+```bash
+cp .env.example .env
+```
+
 ### 2. Generate keypairs
 ```bash
 npm run keygen
